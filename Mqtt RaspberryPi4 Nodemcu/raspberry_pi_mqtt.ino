@@ -8,7 +8,7 @@ const char* ssid = "ACER 7421"; // enter your WiFi SSID
 const char* wifi_password = "Y6123333"; // enter your WiFi password
  
 // Make sure to update this for your own MQTT Broker!
-const char* mqtt_server = "192.168.137.4";
+const char* mqtt_server = "IP Adress of Raspberry Pi";
 const char* mqtt_topic = "testTopic"; //any topic name of your choice
 const char* mqtt_username = "hactao"; //type your mosquitto mqtt username
 const char* mqtt_password = "velglarn1"; //type your mosquitto mqtt password
