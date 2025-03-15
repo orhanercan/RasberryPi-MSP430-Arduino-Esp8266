@@ -27,7 +27,7 @@ private:
     QNetworkAccessManager *manager;
     QStandardItemModel *model;
     QTimer *timer;
-    QString espIP = "192.168.1.47";
+    QString espIP = "192.168.1.10";
     QString lastRfid = "";
 };
 #endif // MAINWINDOW_H
