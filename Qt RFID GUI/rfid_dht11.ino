@@ -4,8 +4,8 @@
 #include <MFRC522.h>
 #include <DHT.h>
 
-const char* ssid = "SUPERONLINE_Wi-Fi_2716";
-const char* password = "QTCCP4ReFxEd";
+const char* ssid = "SUPERONLINE_Wi-Fi";
+const char* password = "123456789";
 
 ESP8266WebServer server(80);
 
