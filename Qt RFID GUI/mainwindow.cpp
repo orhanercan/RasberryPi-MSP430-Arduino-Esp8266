@@ -30,7 +30,7 @@ MainWindow::MainWindow(QWidget *parent)
 }
 
 void MainWindow::fetchData() {
-    QUrl url("http://192.168.1.47/data"); // ESP IP'nizi girin
+    QUrl url("http://192.168.1.10/data"); // ESP IP'nizi girin
     manager->get(QNetworkRequest(url));
 }
 
